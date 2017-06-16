@@ -25,3 +25,5 @@ def blog(request,title_id):
     articles = Article.objects.all()
     title_id = int(title_id)
     return render(request, 'single.html', locals())
+
+
